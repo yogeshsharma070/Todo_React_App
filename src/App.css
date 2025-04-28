@@ -1,0 +1,25 @@
+body{
+  background:url("./assets/Img_1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  scroll-behavior: smooth;
+}
+.container{
+  border:5px solid rgba(255, 255, 255, 0.616);
+  background-color: rgba(84, 175, 254, 0.547);
+  backdrop-filter: blur(1px);
+}
+span{
+  text-shadow: 3px 2px 1px black;
+}
+h1,h2{
+  text-shadow: 1px 0px 1px white;
+}
+@media screen and (max-width:500px) {
+  .container{
+    max-width:fit-content;
+    max-height:100%;
+    margin: 5px;
+  } 
+}
