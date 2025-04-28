@@ -19,7 +19,7 @@ h1,h2{
 @media screen and (max-width:500px) {
   .container{
     max-width:fit-content;
-    max-height:98vh;
+    min-height:98vh;
     margin: 5px;
   } 
 }
